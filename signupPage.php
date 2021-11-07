@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="signup.css">
 </head>
 <body>
- 
+ <?php include('header.html'); ?> 
 
 
 	<p id="toppara">
