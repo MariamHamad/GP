@@ -93,14 +93,22 @@
 
     				<h3 class="white-txt">Log in </h3>
     				<p class="white-txt"> log in with yor data that you entered during your registration. </p>
-    				<input type="text" name="car-make" placeholder="username">
-    				<input type="text" name="car-model" placeholder="password">
     				
-    				<button class="white-bg white-txt"> log in</button>
-                    <button class="white-bg white-txt"> sign up</button>
+				<form name="myForm" action="login.php" method="post">
+					
+    				<input type="text" name="emailLogin" id="emailLogin" placeholder="email"> <br>
+    				<input type="text" name="passwordLogin" id="passwordLogin" placeholder="password">
+					
+					<a href="login.php">
+					<button class="white-bg white-txt"> Log in</button>
+					</a>
+
+					</form>
+					
     				
-    			
-    			
+					<a href="signupPage.php">
+					<button class="white-bg white-txt"> Sign up</button>
+					</a>
     		</div>
 
 		
